@@ -25,7 +25,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://frontend-flax-alpha-40.vercel.app",
-        "http://localhost:3000"
+        "http://localhost:3000",
+        "https://ronakfrontend.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
